@@ -1,0 +1,60 @@
+.menu {
+    background-color: rgba(206, 230, 255, 0.35);
+}
+
+a:visited {
+    color: #000000;
+}
+
+html {
+    font-size: 18px;
+}
+
+.home {
+    display: flex;
+    align-content: center;
+    gap: 6px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #295cff;
+    line-height: 1;
+    width: max-content;
+}
+
+.home::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 26px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' x='0' y='0' viewBox='0 0 512 512' style='enable-background:new 0 0 512 512' xml:space='preserve' class=''%3E%3Cg%3E%3Cpath fill='%23ffda44' d='M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0 0 114.6 0 256s114.6 256 256 256z' data-original='%23ffda44' class=''%3E%3C/path%3E%3Cpath fill='%23005bbb' d='M0 256C0 114.6 114.6 0 256 0s256 114.6 256 256z' data-original='%23005bbb' class=''%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+
+.home:visited {
+    color: #295cff;
+}
+
+.wrapper {
+    max-width: 960px;
+    width: 100%;
+    margin: 30px auto 0;
+}
+
+
+.classes {
+    background-color: rgba(206, 230, 255, 0.35);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+li {
+    font-size: 18px;
+    list-style: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' width='16' height='16' x='0' y='0' viewBox='0 0 128 128' style='enable-background:new 0 0 512 512' xml:space='preserve' class=''%3E%3Cg%3E%3Cpath d='M127.41 124.59 102.78 100a8.4 8.4 0 0 0-1.24-10.28L94.86 83l3.7-3.7a2 2 0 0 0 0-2.83L40.15 18l6.13-6.13a2 2 0 0 0-2.83-2.83l-7.54 7.54-3.7 3.7-12-12 4.89-4.89a2 2 0 0 0-2.85-2.8l-6.31 6.3-9 9-6.35 6.36a2 2 0 1 0 2.83 2.83l4.89-4.89 12 12-3.7 3.7-7.53 7.55a2 2 0 1 0 2.83 2.83L18 40.15l58.46 58.42a2 2 0 0 0 2.83 0l3.7-3.7 6.68 6.68a8.4 8.4 0 0 0 10.33 1.23l24.63 24.63a2 2 0 0 0 2.83-2.83zM11.14 17.36l6.22-6.22 12 12-6.22 6.22zm66.73 77-57-57 3.7-3.7 9-9 3.7-3.7 17.8 17.8-6.59 6.54a2 2 0 1 0 2.83 2.83L58 41.5l7.92 7.92-6.64 6.64a2 2 0 1 0 2.83 2.83l6.64-6.64 7.92 7.92L70 66.8a2 2 0 1 0 2.83 2.83L79.45 63l14.88 14.87zm14.63 4.36L85.82 92 92 85.82l6.68 6.68a4.4 4.4 0 0 1-6.22 6.22z' fill='%23000000' data-original='%23000000' class=''%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
